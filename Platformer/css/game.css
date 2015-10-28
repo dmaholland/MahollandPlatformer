@@ -1,0 +1,26 @@
+.background    { background: radial-gradient(circle, black, white);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 0, 0); }
+.wall          { background: purple;   }
+
+.actor  { position: absolute;  }
+.coin   { background: linear-gradient(gold, silver); }
+.player { background-image: url('C:/Users/Donovan/Desktop/JSPlatformer-master/spritesheet.png'); }
+.fakeWall{background: purple;}
+		  
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url('sprites\lost.png');
+}
+.won .player {
+  box-shadow: -6px -12px 9px white, 7px -13px 10px gold;
+}
